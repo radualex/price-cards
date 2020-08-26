@@ -2,6 +2,7 @@ import * as React from "react";
 import "./styles.css";
 
 import CardOption from "./CardOption/CardOption";
+import CardStarted from "./CardStarted/CardStarted";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         </h2>
       </div>
       <div className="cards-wrapper">
+        <CardStarted />
         <CardOption />
       </div>
     </div>

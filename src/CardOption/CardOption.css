@@ -44,8 +44,17 @@
 }
 
 .cardOption-wrapper .getOffer-wrapper {
+  width: 93px;
+
   display: flex;
   margin: 42px 0 0 0;
+
+  user-select: none;
+}
+
+.cardOption-wrapper .getOffer-wrapper:hover {
+  cursor: pointer;
+  color: #e0a0ce;
 }
 
 .cardOption-wrapper .getOffer-wrapper .content {
