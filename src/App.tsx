@@ -3,6 +3,7 @@ import "./styles.css";
 
 import CardOption from "./CardOption/CardOption";
 import CardStarted from "./CardStarted/CardStarted";
+import Button from "./Button/Button";
 
 export default function App() {
   return (
@@ -17,7 +18,9 @@ export default function App() {
       <div className="cards-wrapper">
         <CardStarted />
         <CardOption />
+        <CardOption />
       </div>
+      <Button content={"View more"} />
     </div>
   );
 }
