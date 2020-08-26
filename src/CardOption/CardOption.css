@@ -1,0 +1,52 @@
+.cardOption-wrapper {
+  width: 195px;
+  height: 192px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 35px 35px 40px 35px;
+
+  background: #171727;
+  border-radius: 20px;
+}
+
+.cardOption-wrapper .title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.cardOption-wrapper .price-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin: 35px 0 0 0;
+}
+
+.cardOption-wrapper .price-wrapper .current {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.cardOption-wrapper .price-wrapper .old {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  margin: 4px 0 0 0;
+}
+
+.cardOption-wrapper .getOffer-wrapper {
+  display: flex;
+  margin: 42px 0 0 0;
+}
+
+.cardOption-wrapper .getOffer-wrapper .content {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  margin: 0 6px 0 0;
+}
