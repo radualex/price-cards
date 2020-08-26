@@ -16,9 +16,22 @@ export default function App() {
         </h2>
       </div>
       <div className="cards-wrapper">
-        <CardStarted />
-        <CardOption />
-        <CardOption />
+        <CardStarted
+          title={"Get .biz domain with 45% off"}
+          price={"$4.88/yr"}
+        />
+        <CardOption
+          title={".IO"}
+          currentPrice={"$28.88/yr"}
+          oldPrice={"Instead of $32.89/yr"}
+          hasTag={true}
+        />
+        <CardOption
+          title={".SO"}
+          currentPrice={"$35.88/yr"}
+          oldPrice={"Instead of $64.88/yr"}
+          hasTag={false}
+        />
       </div>
       <Button content={"View more"} />
     </div>
